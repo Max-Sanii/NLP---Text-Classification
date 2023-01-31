@@ -22,7 +22,7 @@ This project is about classifying whether the word 'mouse' in a sentence is refe
 * Matplotlib
 
 ### Instructions:
-Click the green 'Clone or download' button. Then, extract the zip file and open the Jupyter notebook file (.ipynb) in the same folder. Finally, open the notebook in the Jupyter of your local computer or on the cloud, and run each cell.
+Clone or download the zip file, then, extract the zip file and open the Jupyter notebook file (.ipynb) in the same folder. Finally, open the notebook in the Jupyter of your local computer or on the cloud, and run each cell.
 
 ### Data source:
 https://www.kaggle.com/werty12121/animal-mouse-vs-computer-mouse-text-dataset#animal.csv
