@@ -1,39 +1,24 @@
-# Animal Mouse vs Computer Mouse - NLP, Word Embedding, and Text Classification
+# NLP: Animal Mouse vs Computer Mouse
 This project is a side part that I implemented during my graduate program at the University of San Diego (USD). 
 -- Project Status: Completed
 
 Installation
-You should add an instruction how this project to be used, installed, run, edited in others’ machine.
+
   
-Project Intro/Objective
-The main purpose of this project is . Describe the goals of the project and potential impacts. Mention the needs/applications of your project clearly. Limit to one/two short paragraph(s).
+Project Description
+This project is about classifying whether the word 'mouse' in a sentence is referring to a mouse as animal or as a computer mouse. The dataset consists of separate texts containing the word 'mouse'. The texts are first preprocessed by NLP techniques such as Tokenization, Lemmatization, and Stop Words Removal. Then they are converted into vectors by utilizing three different word embedding approaches (Count Vectorizer, TF-IDF, N-gram level). The feature vectors are then fed into two classifiers (Logistic Regression and Naive Bayesian). The trained models are used for classifying the validation texts. At last, Ensemble Models are used to combine the best 3 performing models in order to improve the performance.
+
 
 Methods Used
-A few examples are:
-•	Inferential Statistics
 •	NLP
-•	Computer Vision
+•	Word Embedding
+•	Text Classification
 •	Machine Learning
-•	Deep Learning
-•	Ethics for AI
-•	Data Visualization
-•	IoT
-•	Cloud Computing 
-•	Data Manipulation
-•	Case Studies 
-•	etc.
-Technologies
-A few examples are:
-•	Python
-•	C++
-•	SQL
-•	PostGres, MySql
-•	R
-•	JavaScript
-•	etc.
+•	Inferential Statistics
 
-Project Description
-Discuss the details of project overview. Description your selected dataset, such as data source, number of variables, size of dataset, etc. Include data dictionary, if available.  Provide questions and hypothesis that you are exploring. What specific data analysis, visualization, and modeling work are you using to solve the problem? What roadblocks and challenges are you facing? etc. 
+Technologies
+•	Python
+
 
 Requirement(s): sklearn
 
